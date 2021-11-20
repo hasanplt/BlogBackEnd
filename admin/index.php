@@ -23,7 +23,7 @@
     while($blogcek=$blogsor->fetch(PDO::FETCH_ASSOC)){
         $zaman = $blogcek['blog_zaman'];
         $zaman = strtotime($zaman);
-        $zaman = utf8_encode(strftime("%d %B %Y %H:%M", $zaman));
+        $zaman = iconv("iso-8859-9", "utf-8", strftime("%d %B %Y %H:%M", $zaman));
 
         $yazarsor=$db->prepare("SELECT * FROM user where user_id=:id");
         $yazarsor->execute(array(
