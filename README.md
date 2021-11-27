@@ -5,3 +5,5 @@ AMAÇ : Bu projedeki amacım PHP ile PDO kullanarak MYSQL veritabanlı bir basit
 *Class kullandım ancak gerek olmadığının farkındayım. Kullanım amacım sadece class içinde dıştan gelen değişken ifadelerini anlayabilmek denemekti.
 
 ## GENEL KURALLAR
+    1) Tablo isimleri ve formdan göndereceğiniz veri isimleri aynı olmalı. Template: {Tabloİsmi}_{Veriİsmi}. Mesela Kullanici_İsim : Kullanıcı adlı tablonun isim verisi. Bu MYSQL kısmında da form kısmında da aynı olmalı. Kodları inceleyerek daha iyi anlayabilirsiniz.
+    
