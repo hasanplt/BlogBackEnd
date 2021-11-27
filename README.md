@@ -8,6 +8,6 @@ GENEL KURALLAR
     1) Tablo isimleri ve formdan göndereceğiniz veri isimleri aynı olmalı. Template: {Tabloİsmi}_{Veriİsmi}. Mesela Kullanici_İsim : Kullanıcı adlı tablonun isim verisi. Bu MYSQL kısmında da form kısmında da aynı olmalı. Kodları inceleyerek daha iyi anlayabilirsiniz.
     
     2) Son veri olarak formda inputu hidden olarak geri dönüş linkleri eklenmeli. 
-    <input type="hidden" name="Donus_link" value="<?php echo "{Basarili Ekleme İse Link}<>yazi-ekle.php?{Basarisiz Ekleme İse Link}";?>">
+    "<input type="hidden" name="Donus_link" value="<?php echo "{Basarili Ekleme İse Link}<>yazi-ekle.php?{Basarisiz Ekleme İse Link}";?>">"
 
     3) Kodlar içerisinde yorum satırları ile açıklamaya çalıştım eksiğim var ise veya anlamadığınız kısmı lütfen bana yazın bu kodları daha açıklayıcı ve doğru şekilde tamamlamak istiyorum.
