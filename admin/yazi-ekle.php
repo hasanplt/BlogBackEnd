@@ -23,6 +23,7 @@
         <input type="text" name="blog_etiketler" placeholder="Yazı, Etiketleri, Böyle"><br><br>
         <textarea cols="70" name="blog_text" rows="20" placeholder="Yazı İçeriği"></textarea><br><br>
         <input type="hidden" name="blog_yazarid" value="<?php echo $yazarcek['user_id']; ?>">
+        <input type="hidden" name="Donus_link" value="<?php echo "index.php?durum=ok<>yazi-ekle.php?durum=no";?>">
         <button type="submit" name="YaziEKLE">Yazıyı Ekle</button>
     </form>
 
