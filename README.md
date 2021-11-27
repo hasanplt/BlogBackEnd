@@ -6,4 +6,4 @@ AMAÇ : Bu projedeki amacım PHP ile PDO kullanarak MYSQL veritabanlı bir basit
 
 ## GENEL KURALLAR
 
-    * Tablo isimleri ve formdan göndereceğiniz veri isimleri aynı olmalı. Template: {Tabloİsmi}_{Veriİsmi}. Mesela Kullanici_İsim : Kullanıcı adlı tablonun isim verisi. Bu MYSQL kısmında da form kısmında da aynı olmalı. Kodları inceleyerek daha iyi anlayabilirsiniz.
+Tablo isimleri ve formdan göndereceğiniz veri isimleri aynı olmalı. Template: {Tabloİsmi}_{Veriİsmi}. Mesela Kullanici_İsim : Kullanıcı adlı tablonun isim verisi. Bu MYSQL kısmında da form kısmında da aynı olmalı. Kodları inceleyerek daha iyi anlayabilirsiniz.
